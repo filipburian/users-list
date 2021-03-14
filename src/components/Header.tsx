@@ -4,7 +4,7 @@ interface HeaderProps {
   children: React.ReactNode;
 }
 
-const Header = memo(({ children }: HeaderProps) => (
+const Header: React.FC<HeaderProps> = memo(({ children }) => (
   <header>
     <h2>{children}</h2>
   </header>

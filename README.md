@@ -7,6 +7,11 @@ Just start it and see the unlimited possibilities it provides.
 2. Run npm ci
 3. Run npm start
 
+### If you want to see if .env works:
+    Create .env file in root of the project
+    Add REACT_APP_API_DOMAIN=your.api.com
+    Now request for users will go to {API_DOMAIN}/users.
+    
 That's it.
 
 If default port 3000 is already taken, app will ask if open on another one.

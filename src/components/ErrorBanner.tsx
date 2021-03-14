@@ -5,7 +5,7 @@ interface ErrorBannerProps {
   errorStatus?: string;
 }
 
-const ErrorBanner = ({ errorStatus = '' }: ErrorBannerProps) => {
+const ErrorBanner: React.FC<ErrorBannerProps> = ({ errorStatus = '' }) => {
   const [visible, setVisible] = useState(true);
   const { t } = useTranslations();
 

@@ -1,4 +1,4 @@
-import { User } from "../domains/Users";
+import { User } from '../domains/Users';
 
 export const mockedUsers: User[] = [
   {
@@ -10,5 +10,5 @@ export const mockedUsers: User[] = [
     id: 2,
     name: 'John Doe',
     username: 'johndoe',
-  }
+  },
 ];

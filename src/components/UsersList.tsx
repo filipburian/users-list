@@ -6,10 +6,10 @@ interface UsersList {
   users: User[];
 }
 
-const UserList = ({ users }: UsersList) => (
+const UserList: React.FC<UsersList> = ({ users }) => (
   <div>
     {users.length ? (
-      <ol className="usersList centeredItem">
+      <ol className="usersList">
         {users.map(({ id, name, username }) => (
           <li key={id}>
             <span className="boldText">{name}</span>

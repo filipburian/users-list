@@ -6,7 +6,7 @@ interface SearchInputProps {
   value: string;
 }
 
-const SearchInput = ({ onSearch, value }: SearchInputProps) => {
+const SearchInput: React.FC<SearchInputProps> = ({ onSearch, value }) => {
   const { t } = useTranslations();
   const inputRef = useRef<HTMLInputElement>(null);
 
