@@ -1,0 +1,84 @@
+:root {
+  --main-color: #B3B2AF;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.usersWrapper {
+  width: 25rem;
+  margin: auto;
+}
+
+.usersList {
+  padding-left: 0;
+  list-style: inside decimal;
+}
+.usersList li {
+  padding: 0.3rem;
+  width: 100%;
+  text-align: left;
+}
+
+.userListItem::marker {
+  color: var(--main-color);
+}
+
+.searchInputWrapper {
+  padding: 0.6rem;
+}
+
+.searchInput {
+  padding: 0.3rem;
+  outline: 1px solid var(--main-color);
+  border: none;
+  width: 100%;
+}
+.searchInput:focus {
+  outline: 2px solid var(--main-color);
+}
+
+.searchInput::placeholder {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--main-color);
+}
+
+.errorBanner {
+  background-color: crimson;
+  color: white;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.noResult {
+  min-width: 25rem;
+}
+
+.loader {
+  min-width: 25rem;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.boldText {
+  font-weight: 600;
+}
+
+.greyFont {
+  color: var(--main-color);
+}
+
+.userName {
+  margin-left: 0.8rem;
+  font-size: 0.9rem;
+}
